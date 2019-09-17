@@ -1,8 +1,41 @@
-{ 
-     "name" : "Malika",
-     "age" : 18,
-     "university" : "KTU Manas",
-     
+{
+  "personal_information" :[
+    {
+      "name" : "Malika",
+      "lastname" : "Umurzakova"
+      "age" : 18,
+      "regency" : "Kyrgysztan",
+      "university" : "KTU Manas", 
+      "horoscope" : "Scorpion",
+      "favorite_film" : "The Devil Wears Prada",
+      "favorite_book" : "Alchemist",
+      "favorite_color" : "vinous",
+      "hobbies" :["hiking", "handmade", "reading articles about medicine and psycology"],
+    },
+    {
+      "name" : "Joe",
+      "lastname" : "Smith",
+      "age" : 20,
+      "regency" : "The USA",
+      "university" : "Harvard University",
+      "horoscope" : "Canser",
+      "favorite_film" : "Inception",
+      "favorite_book" : "Sherlok Holms",
+      "favorite_color" : "black",
+      "hobbies" :["running", "playing chess", "playing computer games"],
+    }
+    {
+      "name" : "Chia",
+      "lastname" : "Kim",
+      "age" : 22,
+      "regency" : "Korea",
+      "university" : "Seoul National University",
+      "horoscope" : "Aries",
+      "favorite_film" : "The Lion King",
+      "favorite_book" : "Great Expectations",
+      "favorite_color" : "green",
+      "hobbies" :["playing tennis", "swimming", "writing poem"],
+    }
+  ]
 }
-     
-  
+
