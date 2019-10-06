@@ -1,18 +1,17 @@
 n,x = map(int, input().split())
 a = list(map(int, input().split()))
-a.sort(); count=1;
+a.sort(); count=0;
 print(" ".join(map(str, a)))
-mid = len(a)//2; low = 0; high = len(a)-1
- 
-while a[mid] != x and low <= high:
+low = 0; high = len(a)-1
+while low <= high:
     count+=1
-    if x > a[mid]:
+    mid = (low + high) // 2
+    if x < a[mid]:
+        high = mid - 1
+    elif x > a[mid]:
         low = mid + 1
     else:
-        high = mid - 1
-    mid = (low + high) // 2
- 
-if low > high:
-    print("NO "+str(count-1))
+        print("YES "+str(count))
+        break
 else:
-    print("YES "+str(count))
+    print("NO "+str(count))
